@@ -2,13 +2,13 @@
 library(dplyr)
 
 #read train data
-xtrain <- read.table(file.path(pathdata, "train", "xTrain.txt"), header = FALSE)
-ytrain <- read.table(file.path(pathdata, "train", "yTrain.txt"),header = FALSE)
+xtrain <- read.table(file.path(pathdata, "train", "xtrain.txt"), header = FALSE)
+ytrain <- read.table(file.path(pathdata, "train", "ytrain.txt"),header = FALSE)
 subTrain = read.table(file.path(pathdata, "train", "subTrain.txt"),header = FALSE)
 
 #Read testing data
-xtest <- read.table(file.path(pathdata, "test", "XTest.txt"),header = FALSE)
-ytest <- read.table(file.path(pathdata, "test", "yTest.txt"),header = FALSE)
+xtest <- read.table(file.path(pathdata, "test", "Xtest.txt"),header = FALSE)
+ytest <- read.table(file.path(pathdata, "test", "ytest.txt"),header = FALSE)
 subTest <- read.table(file.path(pathdata, "test", "subTest.txt"),header = FALSE)
 
 #Read features
