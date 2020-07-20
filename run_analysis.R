@@ -4,7 +4,7 @@ library(dplyr)
 #read train data
 xtrain <- read.table(file.path(pathdata, "train", "x_train.txt"), header = FALSE)
 ytrain <- read.table(file.path(pathdata, "train", "y_train.txt"),header = FALSE)
-subTrain = read.table(file.path(pathdata, "train", "subject_train.txt"),header = FALSE)
+subTrain <- read.table(file.path(pathdata, "train", "subject_train.txt"),header = FALSE)
 
 #Read testing data
 xtest <- read.table(file.path(pathdata, "test", "X_test.txt"),header = FALSE)
